@@ -1,10 +1,15 @@
 {
-	"name": "malico/laravel-nanoid",
+	"name": "u2y/laravel-nanoid",
+    "version": "0.4.0",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Malico",
 			"email": "hi@malico.me"
+		},
+		{
+			"name": "Alessandro Pietrantonio",
+            "homepage": "https://u2y.io"
 		}
 	],
 	"autoload": {
@@ -19,8 +24,8 @@
 	},
 	"require": {
 		"hidehalo/nanoid-php": "^1.1",
-		"illuminate/auth": "^8.0|^9.0",
-		"illuminate/support": "^8.0|^9.0"
+		"illuminate/auth": "^8.0|^9.0|^10.0",
+		"illuminate/support": "^8.0|^9.0|^10.0"
 	},
 	"require-dev": {
 		"ext-pdo": "*",
